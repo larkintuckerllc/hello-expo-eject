@@ -12,7 +12,8 @@ cache:
 install:
   - yarn install
 script:
-  - expo publish:history
+  -if [ "$TRAVIS_BRANCH" == "staging" ]; then echo "STAGING" ; fi;
+  -if [ "$TRAVIS_BRANCH" == "master" ]; then echo "MASTER" ; fi;
 branches:
   only:
     - master
