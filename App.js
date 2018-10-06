@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Constants.expoVersion</Text>
+        <Text>{Constants.expoVersion}</Text>
       </View>
     );
   }
