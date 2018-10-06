@@ -6,12 +6,16 @@
         "start": "expo start",
         "android": "expo start --android",
         "ios": "expo start --ios",
-        "eject": "expo eject"
+        "eject": "expo eject",
+        "version": "json -I -f ./app.json -e 'this.expo.version=\"'$npm_package_version'\"' && git add ./app.json"
     },
     "dependencies": {
         "expo": "^30.0.1",
         "react": "16.3.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "devDependencies": {
+        "json": "^9.0.6"
+    }
 }
