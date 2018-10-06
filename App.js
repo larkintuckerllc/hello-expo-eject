@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Constants } from 'expo';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello - Open up App.js to start working on your app!</Text>
+        <Text>Constants.expoVersion</Text>
       </View>
     );
   }
