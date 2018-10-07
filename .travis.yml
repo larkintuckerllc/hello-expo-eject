@@ -13,7 +13,7 @@ install:
   - yarn install
 script:
   - if [ "$TRAVIS_BRANCH" == "staging" ]; then expo publish --release-channel staging ; fi;
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then expo publish ; fi;
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then expo publish --release-channel master ; fi;
 branches:
   only:
     - master
