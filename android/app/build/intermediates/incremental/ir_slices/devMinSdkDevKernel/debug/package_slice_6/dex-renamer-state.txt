@@ -1,0 +1,4 @@
+#Sun Oct 07 00:03:40 EDT 2018
+base.0=/home/sckmkny/Documents/hello-expo-eject/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/26
+path.0=classes.dex
+renamed.0=classes.dex

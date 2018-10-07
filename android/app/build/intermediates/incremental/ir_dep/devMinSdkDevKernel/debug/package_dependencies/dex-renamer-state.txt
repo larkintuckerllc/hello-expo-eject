@@ -1,0 +1,13 @@
+#Sun Oct 07 00:03:39 EDT 2018
+path.3=classes2.dex
+path.2=classes3.dex
+path.1=classes4.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/sckmkny/Documents/hello-expo-eject/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/1
+base.2=/home/sckmkny/Documents/hello-expo-eject/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/1
+base.1=/home/sckmkny/Documents/hello-expo-eject/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/1
+base.0=/home/sckmkny/Documents/hello-expo-eject/android/app/build/intermediates/transforms/dexMerger/devMinSdkDevKernel/debug/1
