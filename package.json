@@ -14,7 +14,7 @@
         "react": "16.3.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
     },
-    "version": "0.1.4",
+    "version": "0.1.5",
     "devDependencies": {
         "json": "^9.0.6"
     }
